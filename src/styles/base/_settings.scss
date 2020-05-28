@@ -1,0 +1,15 @@
+// Colors
+// Spacing
+@font-face{
+    font-family: 'bisonbold';
+    src:url('/src/fonts/bisonbold.ttf') format('truetype'),
+        url('/src/fonts/bison-boldpersonaluse-webfont.woff') format('woff'),
+        url('/src/fonts/bison-boldpersonaluse-webfont.woff2') format('woff2')
+
+}
+$font:bisonbold;
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$desktop-breakpoint: 45rem;
