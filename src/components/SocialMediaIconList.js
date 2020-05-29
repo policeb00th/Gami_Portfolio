@@ -5,16 +5,6 @@ import MailIcon from '../../assets/mail.svg'
 import BehanceIcon from '../../assets/behance-logo.svg'
 import LinkedinIcon from '../../assets/linkedin.svg'
 import InstaIcon from '../../assets/instagram.svg'
-const IconList = () => (
-    <div className="Icon_display">
-        <p>SOCIAL</p>
-        <a href="#"><BehanceIcon className="Icon" /></a>
-        <a href="#"><MailIcon className="Icon" /></a>
-        <a href="#"><LinkedinIcon className="Icon" /></a>
-        <a href="#"><InstaIcon className="Icon" /></a>
-        <a href="#"><FacebookIcon className="Icon" /></a>
-    </div>
-)
 class IconListStatefull extends React.Component {
     constructor(props){
         super(props)
@@ -46,9 +36,9 @@ class IconListStatefull extends React.Component {
                {this.state.Hover? <p className="social" onMouseEnter={this.handleHovering} onMouseLeave={this.handleHoverOut}><span className="anti">ANTI</span>SOCIAL</p>: <p className="social" onMouseEnter={this.handleHovering} onMouseLeave={this.handleHoverOut}>SOCIAL</p>}
                 <a href="http://www.behance.net/sgami444" target="_blank"><BehanceIcon className="Icon" /></a>
                 <a href="#"><MailIcon className="Icon" /></a>
-                <a href="https://www.linkedin.com/in/sgami444/"><LinkedinIcon className="Icon" /></a>
-                <a href="https://www.instagram.com/des_ui_gner/"><InstaIcon className="Icon" /></a>
-                <a href="https://www.facebook.com/profile.php?id=100009078723667"><FacebookIcon className="Icon" /></a>
+                <a href="https://www.linkedin.com/in/sgami444/" target="_blank"><LinkedinIcon className="Icon" /></a>
+                <a href="https://www.instagram.com/des_ui_gner/"target="_blank"><InstaIcon className="Icon" /></a>
+                <a href="https://www.facebook.com/profile.php?id=100009078723667" target="_blank"><FacebookIcon className="Icon" /></a>
             </div>
         )
     }
