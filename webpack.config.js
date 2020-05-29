@@ -18,6 +18,10 @@ module.exports = {
         'css-loader',
         'sass-loader'
       ]
+    },
+    {
+      test: /\.svg$/,
+      use: ['@svgr/webpack'],
     }]
   },
   devtool: 'cheap-module-eval-source-map',

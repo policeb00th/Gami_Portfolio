@@ -9,15 +9,15 @@
         
 
 }
-
-
 .header {
     width: 100%;
-    position: fixed;
+    position: sticky;
+    z-index: 1;
     top: 0px;
     left: 0px;
     background: #050503 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background-size: cover;
+    opacity: 50;
     display:flex;
     justify-content: space-between;
 }
@@ -53,6 +53,10 @@
     cursor: pointer;
 }
 
+.link:hover{
+    opacity: 1;
+}
+
 .link__last{
     text-align: left;
     margin-right: 15rem;
@@ -64,6 +68,10 @@
     color: #FFFFFF;
     opacity: 0.5;
     flex-grow: 0;
+    cursor: pointer;
+}
+.link__last:hover{
+    opacity: 1;
 }
 .name{
     margin-top: $l-size;
