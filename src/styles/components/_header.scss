@@ -31,9 +31,9 @@
     font-family:Bison, sans-serif;
     font-size: $xl-size;
     flex-grow: 7;
-    font-weight: bold;
+    font-weight: 200;
     margin-top: $l-size;
-    margin-left: $l-size;
+    margin-left: 10rem;
     color: #6650F2;
     
 
@@ -50,6 +50,7 @@
     color: #FFFFFF;
     opacity: 0.5;
     flex-grow: 0;
+    cursor: pointer;
 }
 
 .link__last{

@@ -1,4 +1,41 @@
 .face_img{
-    margin-left:20rem;
-    margin-top: 15rem
+    margin-left:30rem;
+    margin-top: 15rem;
+    width: 80rem;
+    height: auto;
+}
+
+.pagetext{
+    margin-right: 15rem;
+    position: relative;
+    text-align: right;
+    top: -45rem;
+    padding-left: 71rem;
+}
+
+.name_intro{
+    font: Bold 2rem/2.4rem Sans-serif;
+    letter-spacing: .6rem;
+    color: #EBEEF2;
+    opacity: 0.7;
+}
+
+.intro_pink{
+    margin-bottom: 0rem;
+    margin-top: 0;
+    font: Bold 5rem/6.1rem Sans-serif;
+    letter-spacing: 0px;
+    color: #F29999;
+    opacity: 1;
+}
+
+.intro_text{
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-left: 74rem;
+    margin-top: 4rem;;
 }
