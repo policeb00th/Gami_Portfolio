@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import AboutMeTextContainer from './AboutMeTextContainer';
 
 const AboutMe=() =>(
-    <div id="aboutme">This will be the about me section</div>
+    <div>
+    <p id="aboutme" className="aboutme">About Me</p>    
+    <img className="about_img" src="/images/photo-gray.png"/>
+    <AboutMeTextContainer/>
+    </div>
 )
 export default AboutMe
