@@ -9,6 +9,8 @@ body {
   font-family: Bison,sans-serif;
   font-size: $m-size;
   color: white;
+  max-width: 200rem;
+  margin: 0  auto;
 }
 
 button {

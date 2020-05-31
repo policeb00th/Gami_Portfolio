@@ -1,10 +1,11 @@
 .face_img{
-    position: absolute;
+    position: relative;
     left: 25rem;
-    top:10rem;
+    top:rem;
     margin-left:0;
     width: 60rem;
     height: auto;
+    margin-bottom: -20rem;
 }
 .introduct{
     margin-top: 0rem;
@@ -13,10 +14,10 @@
     margin-right: 25rem;
     position: relative;
     width: 48%;
-    top:25rem;
+    top:-15rem;
     text-align: right;
     margin-left: 85rem;
-    margin-bottom: 50rem;
+    margin-bottom: -40rem;
 }
 
 .name_intro{
@@ -44,4 +45,5 @@
     opacity: 0.7;
     margin-left: 17rem;
     margin-top: 4rem;;
+    margin-bottom: 0;
 }
