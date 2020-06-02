@@ -22,6 +22,7 @@
     margin-top: 0;
     margin-bottom: 20rem;
     height: 5rem;
+    transition: 0.5s;
 }
 .aboutme{
 text-align: left;
@@ -37,21 +38,53 @@ opacity: 1;
 }
 
 .pinktext{
+    text-decoration: none;
 font: 500 150px/180px Bison;
 letter-spacing: 0px;
-color: #F29999;
+color: transparent;
 text-align: center;
 opacity: 1;
 padding:0;
 margin:0;
 }
-.hovertext{
+
+.pinktext:before{
+    content:attr(data-pink);
+    color: #F29999;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(0);
+    transition: 0.5s;
+    pointer-events: none;
+}
+.pinktext:hover:before{
+    transform: translateY(-10rem);
+    opacity: 0;
+}
+
+.pinktext:after{
+    content:attr(data-hover);
+    position: absolute;
+    left: 0;
+    width: 80rem;
+    height: 100%;
+    -webkit-text-stroke: 1px #eee;
+    transform: translateY(15rem);
+    transition: 0.5s;
+    pointer-events: none;
+    opacity: 0;
     text-align: left;
-font-size: 2.6rem;
-font-family: sans-serif;
-letter-spacing: 0px;
-color: #EBEEF2;
-opacity: 1;
-padding-left:17rem;
-padding-right:28rem ;
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    color: #EBEEF2;
+    padding-left:17rem;
+    padding-right:48rem ;
+}
+.pinktext:hover:after{
+    transform: translateY(0);
+    opacity: 1;
 }

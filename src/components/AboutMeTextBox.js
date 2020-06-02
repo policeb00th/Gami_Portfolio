@@ -30,7 +30,7 @@ class AboutMeText extends React.Component {
     render() {
         return (
             <div className="singleaboutme">
-                {this.state.Hover?<p onMouseEnter={this.handleHovering} onMouseOut={this.handleHoverOut} className="hovertext">{this.props.hover_text}</p>:<p onMouseEnter={this.handleHovering} onMouseOut={this.handleHoverOut}  className="pinktext">{this.props.pink_text}</p>}
+                <div data-pink={this.props.pink_text} data-hover={this.props.hover_text} onMouseEnter={this.handleHovering} onMouseOut={this.handleHoverOut} className="pinktext">{this.props.pink_text}</div>
             </div>
         )
     }
