@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './Header';
 
-const WorkPage = () =>(
+const General3DPage = () =>(
     <div>
     <Header></Header>
-    <p>This is my work page</p>
+    <p>3D Design page</p>
     </div>
 )
-export default WorkPage
+export default General3DPage

@@ -4,7 +4,7 @@ import AboutMeTextContainer from './AboutMeTextContainer';
 
 const AboutMe=() =>(
     <div>
-    <p id="aboutme" className="aboutme">About Me</p>    
+    <p  className="aboutme">About Me</p>    
     <img className="about_img" src="/images/photo-gray.png"/>
     <AboutMeTextContainer/>
     </div>
