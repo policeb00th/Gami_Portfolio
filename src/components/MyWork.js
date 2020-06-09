@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import MyWorkContent from './MyWorKContent';
 
-const MyWork=() =>(
-    <div id="mywork">This will be the my work section</div>
+const MyWork = () => (
+    <div>
+        <h1  id="mywork" className="work_header" >My work</h1>
+        <MyWorkContent />
+    </div>
 )
 export default MyWork
