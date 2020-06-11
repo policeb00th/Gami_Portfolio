@@ -13,16 +13,6 @@ margin-bottom: 6.3rem;
     max-width: 70%;
     margin: 0 auto;
 }
-.contribution_big_header{
-    font: 500 100px/120px Bison;
-    margin-top: 20rem;
-    text-align: center;
-    letter-spacing: 0px;
-    color: #6650F2;
-    opacity: 1;
-    margin-bottom: 15rem;
-}
-
 .contribution_individual_header{
     font: 800 50px/61px sans-serif;
     letter-spacing: 0px;
@@ -36,4 +26,52 @@ margin-bottom: 6.3rem;
     color: #FFFFFF;
     opacity: 1;
     margin: 0rem;
+}
+.contribution_big_header{
+    font: 500 100px/120px Bison;
+    margin-top: 20rem;
+    text-align: center;
+    letter-spacing: 0px;
+    color: transparent;
+    opacity: 1;
+    margin-bottom: 15rem;
+}
+
+.contribution_big_header:before{
+    content: attr(data-cont);
+    font: 500 100px/120px Bison;
+    position: absolute;
+    text-align: center;
+    left: 0rem;
+    width: 100%;
+    letter-spacing: 0px;
+    color: #6650F2;
+    opacity: 1;
+    transform: translateX(0);
+    transition: 0.5s;
+    pointer-events: none;
+}
+.contribution_big_header:hover:before{
+    transform: translateX(10rem);
+    opacity: 1;
+}
+
+.contribution_big_header:after{
+    content: attr(data-other);
+    font: 500 100px/120px Bison;
+    position: absolute;
+    text-align: center;
+    left: -40rem;
+    width: 100%;
+    letter-spacing: 0px;
+    color: #F29999;
+    opacity: 0;
+    transform: translateX(0rem);
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.contribution_big_header:hover:after{
+    transform: translateX(15rem);
+    opacity: 1;
 }
