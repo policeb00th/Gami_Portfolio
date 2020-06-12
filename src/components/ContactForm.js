@@ -61,35 +61,45 @@ class ContactForm extends React.Component {
     }
     render() {
         return (
-            <div>
-                <form className="form_contact" onSubmit={this.handleSubmit} >
-                    <input
-                        onFocus={(e) => e.target.placeholder = ""}
-                        onMouseEnter={(e) => e.target.placeholder = ""}
-                        onMouseLeave={(e)=>e.target.placeholder="Name"}
-                        type="text" value={this.state.Name}
-                        nChange={this.handleNameChange}
-                        id="Name"
-                        placeholder="Name"
-                    />
-                    <input
-                        onFocus={(e) => e.target.placeholder = ""}
-                        onMouseEnter={(e) => e.target.placeholder = ""}
-                        onMouseLeave={(e)=>e.target.placeholder="Email"}
-                        type="email" value={this.state.email}
-                        onChange={this.handleEmailChange}
-                        id="email" placeholder="Email"
-                    />
-                    <input
-                        onFocus={(e) => e.target.placeholder = ""}
-                        onMouseEnter={(e) => e.target.placeholder = ""}
-                        onMouseLeave={(e)=>e.target.placeholder="Message"}
-                        type="textarea" value={this.state.message}
-                        onChange={this.handlemessageChange}
-                        id="message"
-                        placeholder="message"
-                    />
-                    <input type="submit" value="Send" />
+            <div className="formContainer"> 
+                <form autoComplete="off" className="form_contact" onSubmit={this.handleSubmit} >
+                    <div className="toptwoinputs">
+                        <input
+                            autoComplete="off"
+                            className="smallinput"
+                            onFocus={(e) => e.target.placeholder = ""}
+                            onMouseEnter={(e) => e.target.placeholder = ""}
+                            onMouseLeave={(e) => e.target.placeholder = "Name"}
+                            type="text" value={this.state.Name}
+                            onChange={this.handleNameChange}
+                            id="Name"
+                            placeholder="Name"
+                        />
+                        <input
+                            className="smallinput"
+                            onFocus={(e) => e.target.placeholder = ""}
+                            onMouseEnter={(e) => e.target.placeholder = ""}
+                            onMouseLeave={(e) => e.target.placeholder = "Email"}
+                            type="email" value={this.state.email}
+                            onChange={this.handleEmailChange}
+                            id="email" placeholder="Email"
+                        />
+                    </div>
+                    <div>
+                        <textarea
+                            className="biginput"
+                            onFocus={(e) => e.target.placeholder = ""}
+                            onMouseEnter={(e) => e.target.placeholder = ""}
+                            onMouseLeave={(e) => e.target.placeholder = "Message"}
+                            type="text" value={this.state.message}
+                            onChange={this.handlemessageChange}
+                            id="message"
+                            placeholder="Message"
+                        />
+                    </div>
+                    <div className="button_container">
+                        <input className="submit_button" type="submit" value="Send" />
+                    </div>
                 </form>
             </div>
         )

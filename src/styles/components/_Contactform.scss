@@ -1,5 +1,146 @@
 .form_contact{
-    display: flex;
-    align-items: center;
+    text-align: center;
+}
+.formContainer{
+    margin-bottom: 15rem;
+}
+
+.toptwoinputs{
+    max-width: 66%;
+    margin: 0 auto;
+    display:flex;
+    margin-bottom: 6rem;
     justify-content: space-around;
+}
+
+.smallinput{
+    padding-left: 3rem;
+    height: 8rem;
+    width: 50rem;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+border-radius: 15px;
+opacity: 0.7;
+font-size: 3rem;
+font-family: sans-serif;
+letter-spacing: 2.4px;
+color: #E8E8E8;
+}
+
+.smallinput:hover{
+    opacity: 1;
+}
+
+.biginput{
+    height: 34rem;
+    width: 113.5rem;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+border-radius: 15px;
+opacity: 0.7;
+font-size: 3rem;
+font-family: sans-serif;
+letter-spacing: 2.4px;
+color: #E8E8E8;
+overflow-wrap: break-word;
+}
+.smallinput::-webkit-input-placeholder { /* Edge */
+    font-size: 3rem;
+font-family: sans-serif;
+letter-spacing: 2.4px;
+color: #E8E8E8;
+padding-left: 3rem;
+opacity: 0.6;
+  }
+  
+.smallinput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 3rem;
+    font-family: sans-serif;
+    letter-spacing: 2.4px;
+    color: #E8E8E8;
+    padding-left: 3rem;
+    opacity: 0.6;
+  }
+  
+.smallinput::placeholder {
+    font-size: 3rem;
+font-family: sans-serif;
+letter-spacing: 2.4px;
+color: #E8E8E8;
+padding-left: 3rem;
+opacity: 0.6;
+  }
+
+.biginput::-webkit-input-placeholder { /* Edge */
+    font-size: 3rem;
+font-family: sans-serif;
+letter-spacing: 2.4px;
+color: #E8E8E8;
+padding-left: 3rem;
+opacity: 0.6;
+  }
+  
+.biginput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 3rem;
+    font-family: sans-serif;
+    letter-spacing: 2.4px;
+    color: #E8E8E8;
+    padding-left: 3rem;
+    opacity: 0.6;
+  }
+  
+.biginput::placeholder {
+    font-size: 3rem;
+    padding-top: 3rem;
+font-family: sans-serif;
+letter-spacing: 2.4px;
+color: #E8E8E8;
+padding-left: 3rem;
+opacity: 0.6;
+  }
+
+.smallinput:focus{
+    outline: none;
+}
+
+.biginput:focus{
+    outline: none;
+}
+
+.submit_button{
+    text-align: center;
+    width: 28rem;
+    height: 8rem;
+    background: #6650F2 0% 0% no-repeat padding-box;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 2.4px;
+    color: #E8E8E8;
+    border-radius: 15px;
+    border:0;
+    cursor: pointer;
+    opacity: 1;
+    transition-duration: 0.4s;
+
+}
+
+
+.button_container{
+    position: relative;
+    left: 40rem;
+    margin: 0px;
+    top: 6rem;
+    display: inline-block;
+   transition-duration: 0.4s;
+
+}
+
+.button_container:hover{
+    position: relative;
+    left: 40rem;
+    top: 6rem;
+    padding:5px;
+    display: inline-block;
+   border: 2px solid #00FF13;
+   border-radius: 15px;
 }
