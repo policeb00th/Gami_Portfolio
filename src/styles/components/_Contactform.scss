@@ -1,3 +1,47 @@
+.contact_line{
+    font: 800 50px/61px sans-serif;
+    margin-bottom: 7rem;
+    position: relative;
+    top: -4rem;
+    left: 34rem;
+letter-spacing: 2.5px;
+color: transparent;
+opacity: 1;
+}
+.contact_line:before{
+    content: attr(data-pink);
+    font: 800 50px/61px sans-serif;
+    width: 100%;
+    position: absolute;
+    text-align: left;
+    color: #F29999;
+    letter-spacing: 2.5px;
+    opacity: 1;
+    transform: translateX(0);
+    transition: 0.5s;
+    pointer-events: none;
+
+}
+
+.contact_line:after{
+    content: attr(data-blue);
+    font: 800 50px/61px sans-serif;
+    position: absolute;
+    text-align: center;
+    color: #6650F2;
+    letter-spacing: 2.5px;
+    opacity: 0;
+    transform: translateX(-10rem);
+    transition: 0.5s;
+    pointer-events: none;
+
+}
+.contact_line:hover:after{
+    transform: translateX(0rem);
+    opacity: 1;
+} 
+
+
 .form_contact{
     text-align: center;
 }
