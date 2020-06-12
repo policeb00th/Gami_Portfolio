@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ContactForm from './ContactForm';
 
 const ContactMe=() =>(
-    <div id="contactme">This will be the my wcontact section</div>
+    <div>
+        <h1 id="contactme" className="work_header">Contact me</h1>
+        <ContactForm/>
+    </div>
 )
 export default ContactMe
