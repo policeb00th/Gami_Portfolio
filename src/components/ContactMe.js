@@ -5,6 +5,7 @@ import ContactForm from './ContactForm';
 const ContactMe=() =>(
     <div>
         <h1 id="contactme" className="work_header">Contact me</h1>
+        <h1> Don't be a stranger, let's connect</h1>
         <ContactForm/>
     </div>
 )

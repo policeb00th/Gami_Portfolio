@@ -32,24 +32,24 @@ class ContactForm extends React.Component {
     }
     sendFeedback = (templateId, variables) => {
         emailjs.send(
-          'gmail', templateId,
-          variables, process.env.REACT_EMAIL_API
-          ).then(res => {
+            'gmail', templateId,
+            variables, process.env.REACT_EMAIL_API
+        ).then(res => {
             // Email successfully sent alert
             Swal.fire({
-              title: 'Email Successfully Sent',
-              icon: 'success'
+                title: 'Email Successfully Sent',
+                icon: 'success'
             })
-          })
-          // Email Failed to send Error alert
-          .catch(err => {
-            Swal.fire({
-              title: 'Email Failed to Send',
-              icon: 'error'
+        })
+            // Email Failed to send Error alert
+            .catch(err => {
+                Swal.fire({
+                    title: 'Email Failed to Send',
+                    icon: 'error'
+                })
+                console.error('Email Error:', err)
             })
-            console.error('Email Error:', err)
-          })
-      }
+    }
     handleNameChange(event) {
         this.setState({ Name: event.target.value })
     }
@@ -62,11 +62,33 @@ class ContactForm extends React.Component {
     render() {
         return (
             <div>
-                <form onSubmit={this.handleSubmit} >
-                    <h1> Don't be a stranger, let's connect</h1>
-                    <input type="text" value={this.state.Name} onChange={this.handleNameChange} id="Name" placeholder="Name" />
-                    <input type="email" value={this.state.email} onChange={this.handleEmailChange} id="email" placeholder="Email" />
-                    <input type="textarea" value={this.state.message} onChange={this.handlemessageChange} id="message" placeholder="message" />
+                <form className="form_contact" onSubmit={this.handleSubmit} >
+                    <input
+                        onFocus={(e) => e.target.placeholder = ""}
+                        onMouseEnter={(e) => e.target.placeholder = ""}
+                        onMouseLeave={(e)=>e.target.placeholder="Name"}
+                        type="text" value={this.state.Name}
+                        nChange={this.handleNameChange}
+                        id="Name"
+                        placeholder="Name"
+                    />
+                    <input
+                        onFocus={(e) => e.target.placeholder = ""}
+                        onMouseEnter={(e) => e.target.placeholder = ""}
+                        onMouseLeave={(e)=>e.target.placeholder="Email"}
+                        type="email" value={this.state.email}
+                        onChange={this.handleEmailChange}
+                        id="email" placeholder="Email"
+                    />
+                    <input
+                        onFocus={(e) => e.target.placeholder = ""}
+                        onMouseEnter={(e) => e.target.placeholder = ""}
+                        onMouseLeave={(e)=>e.target.placeholder="Message"}
+                        type="textarea" value={this.state.message}
+                        onChange={this.handlemessageChange}
+                        id="message"
+                        placeholder="message"
+                    />
                     <input type="submit" value="Send" />
                 </form>
             </div>
