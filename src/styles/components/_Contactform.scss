@@ -84,6 +84,9 @@ border-radius: 15px;
 opacity: 0.7;
 font-size: 3rem;
 font-family: sans-serif;
+box-sizing: border-box;
+padding-top: 3rem;
+padding-left: 3rem;
 letter-spacing: 2.4px;
 color: #E8E8E8;
 overflow-wrap: break-word;
@@ -93,7 +96,6 @@ overflow-wrap: break-word;
 font-family: sans-serif;
 letter-spacing: 2.4px;
 color: #E8E8E8;
-padding-left: 3rem;
 opacity: 0.6;
   }
   
@@ -102,7 +104,6 @@ opacity: 0.6;
     font-family: sans-serif;
     letter-spacing: 2.4px;
     color: #E8E8E8;
-    padding-left: 3rem;
     opacity: 0.6;
   }
   
@@ -111,7 +112,6 @@ opacity: 0.6;
 font-family: sans-serif;
 letter-spacing: 2.4px;
 color: #E8E8E8;
-padding-left: 3rem;
 opacity: 0.6;
   }
 
@@ -120,7 +120,6 @@ opacity: 0.6;
 font-family: sans-serif;
 letter-spacing: 2.4px;
 color: #E8E8E8;
-padding-left: 3rem;
 opacity: 0.6;
   }
   
@@ -129,17 +128,14 @@ opacity: 0.6;
     font-family: sans-serif;
     letter-spacing: 2.4px;
     color: #E8E8E8;
-    padding-left: 3rem;
     opacity: 0.6;
   }
   
 .biginput::placeholder {
     font-size: 3rem;
-    padding-top: 3rem;
 font-family: sans-serif;
 letter-spacing: 2.4px;
 color: #E8E8E8;
-padding-left: 3rem;
 opacity: 0.6;
   }
 
