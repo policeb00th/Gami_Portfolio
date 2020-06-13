@@ -1,9 +1,9 @@
 {
-  "name": "y",
-  "version": "y",
-  "main": "y",
-  "author": "y",
-  "license": "y",
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "main": "Main",
+  "author": "Diptanshu Sinha",
+  "license": "None",
   "scripts": {
     "start": "node server/server.js",
     "heroku-postbuild": "yarn run build-prod",
