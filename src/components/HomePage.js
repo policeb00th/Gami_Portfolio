@@ -5,6 +5,7 @@ import Introduction from './Introduction';
 import AboutMe from './AboutMe';
 import MyWork from './MyWork';
 import ContactMe from './ContactMe';
+import Footer from './Footer';
 
 const HomePage=() =>(
     <div>
@@ -13,6 +14,7 @@ const HomePage=() =>(
         <AboutMe/>
         <MyWork/>
         <ContactMe/>
+        <Footer/>
     </div>
 )
 export default HomePage

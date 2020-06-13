@@ -6,6 +6,8 @@ import UserInteractionPage from '../components/UserInteractionPage';
 import DaysOfType from '../components/DaysofTypePage';
 import General3DPage from '../components/General3DPage';
 import WorkPage from '../components/WorkPage';
+import VintagePage from '../components/VintagePosterPage';
+import GeneralPosterPage from '../components/GeneralPosterPage';
 
 const AppRouter=()=>(
     <BrowserRouter>
@@ -15,6 +17,8 @@ const AppRouter=()=>(
     <Route path ="/UserInteraction" component = {UserInteractionPage}/>
     <Route path ="/DaysOfType" component={DaysOfType}/>
     <Route path ="/3D-design" component={General3DPage}/>
+    <Route path="/Vintage" component={VintagePage}/>
+    <Route path="/GeneralPoster" component={GeneralPosterPage}/>
     <Route component={ErrorPage}/>
     </Switch>
     </BrowserRouter>
