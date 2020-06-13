@@ -9,7 +9,7 @@ const UserInteractionPage = () => (
         <p className="UI_Header">User <br/><span className="UI_small">Interaction</span></p>
         <div className="image_container_main">
             <div className="image_container_left" >
-                <a className="anchorpad" href="http://www.behance.net/sgami444" target="_blank">
+                <a href="http://www.behance.net/sgami444" target="_blank">
                     <img className="image_style" src="/images/UserInteraction/architect.png" />
                     <div className=" image_overlay_left">
                         <div className="image_text">

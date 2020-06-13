@@ -1,7 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Gallery from 'react-grid-gallery';
-import Footer from './Footer';
 
 const ImageStyle= () =>{
     return(
