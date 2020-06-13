@@ -1,9 +1,8 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio_gami",
   "version": "1.0.0",
-  "main": "Main",
-  "author": "Diptanshu Sinha",
-  "license": "None",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "start": "node server/server.js",
     "heroku-postbuild": "yarn run build-prod",
