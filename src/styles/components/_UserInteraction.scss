@@ -18,10 +18,10 @@
     overflow: hidden;
     width: 0;
     height: 100%;
-    transition: .4s ease;
+    transition: .4s  ease;
   }
 .image_container_right:hover .image_overlay_right {
-    transition: .7s ease;
+    transition: .7s .4s ease;
     width: 100%;
   }
 .image_text {
@@ -59,7 +59,7 @@
   }
   
   .image_container_left:hover .image_overlay_left {
-    transition: .7s ease;
+    transition: .7s .4s ease;
     width: 92.65rem;
     left: 0 ;
   }
