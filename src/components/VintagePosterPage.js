@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './Header';
 import Footer from './Footer';
-
-const VintagePage = () =>(
+import VintageGrid from './VintageGrid';
+const Vintage = () =>(
     <div>
     <Header></Header>
-    <p>Vintage page</p>
+    <p className="days_header">Vintage</p>
+    <VintageGrid/>
     <Footer/>
     </div>
 )
-export default VintagePage
+export default Vintage
