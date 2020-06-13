@@ -33,7 +33,7 @@ class ContactForm extends React.Component {
     sendFeedback = (templateId, variables) => {
         emailjs.send(
             'gmail', templateId,
-            variables, process.env.REACT_EMAIL_API
+            variables, "user_MKwgqmmevf5SnlaQxTSsG"
         ).then(res => {
             // Email successfully sent alert
             Swal.fire({

@@ -6,7 +6,7 @@
   "license": "y",
   "scripts": {
     "start": "node server/server.js",
-    "heroku-postbuild":"yarn run build-prod",
+    "heroku-postbuild": "yarn run build-prod",
     "svgr": "svgr -d src/Icons/ assets/",
     "serve": "live-server public/",
     "build-dev": "webpack",
@@ -28,7 +28,6 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "css-loader": "0.28.4",
-    "dotenv-webpack": "^1.8.0",
     "emailjs-com": "^2.4.1",
     "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",
