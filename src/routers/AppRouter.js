@@ -9,9 +9,11 @@ import VintagePage from '../components/VintagePosterPage';
 import GeneralPosterPage from '../components/GeneralPosterPage';
 import Option3DPage from '../components/Option3DPage';
 import PostersOptionPage from '../components/PostersOptionPage';
+import ScrollToTop from '../components/ScrollToTop';
 
 const AppRouter=()=>(
     <BrowserRouter>
+    <ScrollToTop>
     <Switch>
     <Route path="/" exact={true} component={HomePage}/>
     <Route path="/posters" component ={PostersOptionPage}/>
@@ -23,6 +25,7 @@ const AppRouter=()=>(
     <Route path="/GeneralPoster" component={GeneralPosterPage}/>
     <Route component={ErrorPage}/>
     </Switch>
+    </ScrollToTop>
     </BrowserRouter>
 )
 export default AppRouter
