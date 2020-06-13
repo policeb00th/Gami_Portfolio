@@ -5,15 +5,17 @@ import {BrowserRouter,Route,Switch} from 'react-router-dom'
 import UserInteractionPage from '../components/UserInteractionPage';
 import DaysOfType from '../components/DaysofTypePage';
 import General3DPage from '../components/General3DPage';
-import WorkPage from '../components/WorkPage';
 import VintagePage from '../components/VintagePosterPage';
 import GeneralPosterPage from '../components/GeneralPosterPage';
+import Option3DPage from '../components/Option3DPage';
+import PostersOptionPage from '../components/PostersOptionPage';
 
 const AppRouter=()=>(
     <BrowserRouter>
     <Switch>
     <Route path="/" exact={true} component={HomePage}/>
-    <Route path ="/WorkPage" component={WorkPage}/>
+    <Route path="/posters" component ={PostersOptionPage}/>
+    <Route path ="/3D-option" component={Option3DPage}/>
     <Route path ="/UserInteraction" component = {UserInteractionPage}/>
     <Route path ="/DaysOfType" component={DaysOfType}/>
     <Route path ="/3D-design" component={General3DPage}/>
