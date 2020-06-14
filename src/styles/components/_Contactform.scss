@@ -63,9 +63,9 @@ opacity: 1;
     height: 8rem;
     width: 50rem;
     background-color: transparent;
-    border: 2px solid #FFFFFF;
+    border: 2px solid rgba(255,255,255,0.7);
 border-radius: 15px;
-opacity: 0.7;
+opacity: 1;
 font-size: 3rem;
 font-family: sans-serif;
 letter-spacing: 2.4px;
@@ -73,16 +73,16 @@ color: #E8E8E8;
 }
 
 .smallinput:hover{
-    opacity: 1;
+    border: 2px solid rgba(255,255,255,1);
 }
 
 .biginput{
     height: 34rem;
     width: 113.5rem;
     background-color: transparent;
-    border: 2px solid #FFFFFF;
+    border: 2px solid rgba(255,255,255,0.7);
 border-radius: 15px;
-opacity: 0.7;
+opacity: 1;
 font-size: 3rem;
 font-family: sans-serif;
 box-sizing: border-box;
@@ -91,6 +91,9 @@ padding-left: 3rem;
 letter-spacing: 2.4px;
 color: #E8E8E8;
 overflow-wrap: break-word;
+}
+.biginput:hover{
+    border: 2px solid rgba(255,255,255,1);
 }
 .smallinput::-webkit-input-placeholder { /* Edge */
     font-size: 3rem;
