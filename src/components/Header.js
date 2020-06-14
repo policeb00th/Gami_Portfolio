@@ -11,6 +11,7 @@ const Header = () => (
             color: "#F29999",
             opacity: "1"
         }}
+        exact={true}
             className="link"
             to='/'
         >
