@@ -1,11 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Header from './Header';
 import Footer from './Footer';
-import VintageGrid from './VintageGrid';
+import OtherHeader from './OtherPagesHeader';
 const GeneralPosterPage = () =>(
     <div>
-    <Header></Header>
+    <OtherHeader/>
     <p className="days_header">General</p>
     <a className="anchorpad" href="http://www.behance.net/sgami444" target="_blank"><p className="behance">Visit me on behance!</p></a>
     <p className="construction" >Nothing to see here</p>

@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Footer from './Footer';
-import Header from './Header';
+import OtherHeader from './OtherPagesHeader';
 
 const ErrorPage= () =>(
     <div>
-        <Header/>
+       <OtherHeader/>
         Error
         <Footer/>
     </div>

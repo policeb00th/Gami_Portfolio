@@ -4,7 +4,7 @@ import IconList from './SocialMediaIconList';
 import IntroductionContent from './IntroductionContent';
 
 const Introduction= () => (
-    <div>
+    <div id="top">
         <img className='face_img' src="/images/sahil_cropped.png"/>
         <IntroductionContent/>
       <IconList/>

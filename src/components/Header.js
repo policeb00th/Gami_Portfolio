@@ -1,22 +1,20 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
 import { Link, animateScroll as scroll } from "react-scroll";
-const Header = () => (
+const HomeHeader = () => (
     <div className="header">
         <h1 className="name">SAHIL GAMI</h1>
-        <NavLink
-        activeStyle={{
-            textDecoration:'none',
-            textAlign: "left",
-            color: "#F29999",
-            opacity: "1"
-        }}
-        exact={true}
+        <Link
             className="link"
-            to='/'
+            to="aboutme"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            exact={true}
+            to='top'
         >
             Home
-        </NavLink>
+        </Link>
         <Link
             className="link"
             to="aboutme"
@@ -38,6 +36,7 @@ const Header = () => (
             My Work
         </Link>
         <Link
+            activeClass="active"
             className="link__last"
             to="contactme"
             spy={true}
@@ -51,4 +50,4 @@ const Header = () => (
 
 )
 
-export default Header
+export default HomeHeader

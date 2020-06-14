@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Header from './Header';
 import Footer from './Footer';
+import OtherPagesHeader from './OtherPagesHeader';
 
 const UserInteractionPage = () => (
     <div>
-        <Header></Header>
+        <OtherPagesHeader/>
         <p className="UI_Header">User <br/><span className="UI_small">Interaction</span></p>
         <div className="image_container_main">
             <div className="image_container_left" >

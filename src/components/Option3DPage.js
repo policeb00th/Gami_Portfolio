@@ -1,13 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Header from './Header';
 import Footer from './Footer';
 import { NavLink } from 'react-router-dom'
+import OtherHeader from './OtherPagesHeader';
 
 
 const Option3DPage = () => (
     <div>
-        <Header></Header>
+        <OtherHeader/>
         <p className="UI_Header">3D Art</p>
         <div className="image_container_main">
             <div className="image_container_left" >
