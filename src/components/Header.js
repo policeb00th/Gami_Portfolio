@@ -4,19 +4,19 @@ const HomeHeader = () => (
     <div className="header">
         <h1 className="name">SAHIL GAMI</h1>
         <Link
-            className="link"
-            to="aboutme"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            exact={true}
-            to='top'
+             className="link"
+             activeClass="active"
+             to="top"
+             spy={true}
+             smooth={true}
+             offset={-70}
+             duration={500}
         >
             Home
         </Link>
         <Link
             className="link"
+            activeClass="active"
             to="aboutme"
             spy={true}
             smooth={true}
@@ -26,6 +26,7 @@ const HomeHeader = () => (
             About me
         </Link>
         <Link
+            activeClass="active"
             className="link"
             to="mywork"
             spy={true}
