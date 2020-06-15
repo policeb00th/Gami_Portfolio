@@ -47,7 +47,7 @@
   .image_overlay_left {
     position: absolute;
     bottom: 0;
-    left: 92.65rem;
+    left: 92.67rem;
     right: 0;
     background-color: #6650F2;
     overflow: hidden;
@@ -60,7 +60,7 @@
   
   .image_container_left:hover .image_overlay_left {
     transition: .7s .4s ease;
-    width: 92.65rem;
+    width: 92.67rem;
     left: 0 ;
   }
 
@@ -91,4 +91,10 @@ margin: 0;
     font-size:6rem;
     margin-top: 0;
     padding-top: 0;
+}
+
+.image_style_left{
+  width: 92.65rem;
+    padding: 0;
+    margin-right: 2px;
 }

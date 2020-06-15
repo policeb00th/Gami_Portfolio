@@ -28,6 +28,50 @@ const UserInteractionPage = () => (
                 </a>
             </div>
         </div>
+        <div className="image_container_main">
+            <div className="image_container_left" >
+                <a href="http://www.behance.net/sgami444" target="_blank">
+                    <img className="image_style_left" src="/images/UserInteraction/Discovering_l_in_t.png" />
+                    <div className=" image_overlay_left">
+                        <div className="image_text">
+                           C2C OPPORTUNITIES
+                    </div>
+                    </div>
+                </a>
+            </div>
+            <div className="image_container_right" >
+                <a href="http://www.behance.net/sgami444" target="_blank">
+                    <img className="image_style_left" src="/images/UserInteraction/Hackgrid.png" />
+                    <div className=" image_overlay_right">
+                        <div className="image_text">
+                            HACKGRID
+                </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div className="image_container_main">
+            <div className="image_container_left" >
+                <a href="http://www.behance.net/sgami444" target="_blank">
+                    <img className="image_style_left" src="/images/UserInteraction/Login.png" />
+                    <div className=" image_overlay_left">
+                        <div className="image_text">
+                            LOGIN PAGE<br/>CONCEPT
+                    </div>
+                    </div>
+                </a>
+            </div>
+            <div className="image_container_right" >
+                <a href="http://www.behance.net/sgami444" target="_blank">
+                    <img className="image_style_left" src="/images/UserInteraction/Tweak_company_landing.png" />
+                    <div className=" image_overlay_right">
+                        <div className="image_text">
+                           LANDING PAGE <br/> CONCEPT
+                </div>
+                    </div>
+                </a>
+            </div>
+        </div>
         <Footer />
     </div >
 )
