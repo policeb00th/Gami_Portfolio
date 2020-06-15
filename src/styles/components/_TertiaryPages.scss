@@ -23,7 +23,6 @@ a{
 .behance{
     text-decoration: none;
     position: relative;
-    left: 140rem;
     text-align: right;
     font: 800 30px/37px sans-serif;
     letter-spacing: 0px;
@@ -34,9 +33,9 @@ a{
     margin-top: 1.6rem;
     margin-right: 15rem;
     margin-bottom: 4rem;
-    width: 30rem;
+ 
 }
 
 .behance:hover{
-    border-bottom: 2px solid #E8E8E8;
+   text-decoration-line: underline;
 }
