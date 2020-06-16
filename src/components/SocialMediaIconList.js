@@ -9,21 +9,67 @@ import * as clipboard from 'clipboard-polyfill'
 
 
 class IconListStatefull extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props)
 
     }
     render() {
-        return(
+        return (
             <div className="Icon_display">
-                <p data-anti="ANTI" data-social="SOCIAL" className="social">SOCIAL</p>
-                <a href="http://www.behance.net/sgami444" target="_blank"><BehanceIcon className="Icon" /></a>
-                <button className="icon_button" onClick={() => {
-                    clipboard.writeText('sgami444@gmail.com')
-                    alert('Email copied to clickboard') }}><MailIcon className="Icon" /></button>
-                <a href="https://www.linkedin.com/in/sgami444/" target="_blank"><LinkedinIcon className="Icon" /></a>
-                <a href="https://www.instagram.com/des_ui_gner/" target="_blank"><InstaIcon className="Icon" /></a>
-                <a href="https://www.facebook.com/profile.php?id=100009078723667" target="_blank"><FacebookIcon className="Icon" /></a>
+                <p
+                    data-anti="ANTI"
+                    data-social="SOCIAL"
+                    className="social"
+                >
+                    SOCIAL
+                </p>
+                <a
+                    href="http://www.behance.net/sgami444"
+                    target="_blank"
+                >
+                    <svg className="svg-behance">
+                        <circle className="behance-circle" />
+                    </svg>
+                    <BehanceIcon className="Icon" />
+                </a>
+                <button
+                    className="icon_button"
+                    onClick={() => {
+                        clipboard.writeText('sgami444@gmail.com')
+                        alert('Email copied to clickboard')
+                    }}
+                >
+                    <svg className="svg-mail">
+                        <circle className="mail-circle" />
+                    </svg>
+                    <MailIcon className="Icon" />
+                </button>
+                <a
+                    href="https://www.linkedin.com/in/sgami444/"
+                    target="_blank"
+                >
+                    <svg className="svg-linkedin">
+                        <circle className="linkedin-circle" />
+                    </svg>
+                    <LinkedinIcon className="Icon" />
+                </a>
+                <a
+                    href="https://www.instagram.com/des_ui_gner/"
+                    target="_blank"
+                >
+                     <svg className="svg-insta">
+                        <circle className="insta-circle" />
+                    </svg>
+                    <InstaIcon className="Icon" />
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100009078723667"
+                    target="_blank"
+                >
+                    <svg className="svg-fb">
+                        <circle className="fb-circle" />
+                    </svg>
+                    <FacebookIcon className="Icon" />
+                </a>
             </div>
         )
     }

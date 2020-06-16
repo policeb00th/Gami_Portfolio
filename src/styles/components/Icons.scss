@@ -3,3 +3,144 @@
     margin-bottom: 3.4rem;
     align-content: center;
 }
+
+.svg-behance{
+    position: absolute;
+    left: 7.45rem;
+    width: 5rem;
+    height: 5rem;
+    top: 7.86rem;
+
+}
+
+.behance-circle{
+    cx:25;
+    cy:25;
+    r:10;
+    position: absolute;
+    fill: none;
+    stroke: transparent;
+    transition: .8s;
+
+}
+
+.svg-behance:hover{
+    .behance-circle{
+        stroke: blue;
+        stroke-width: 2;
+        r:20;
+    }
+}
+
+
+.svg-mail{
+    position: absolute;
+    left: 7.45rem;
+    width: 5rem;
+    height: 5rem;
+    top: 16.65rem;
+
+}
+
+.mail-circle{
+    cx:25;
+    cy:25;
+    r:10;
+    position: absolute;
+    fill: none;
+    stroke: transparent;
+    transition: .8s;
+
+}
+
+.svg-mail:hover{
+    .mail-circle{
+        stroke: white;
+        stroke-width: 2;
+        r:20;
+    }
+}
+
+.svg-linkedin{
+    position: absolute;
+    left: 7.45rem;
+    width: 5rem;
+    height: 5rem;
+    top: 26.2rem;
+
+}
+
+.linkedin-circle{
+    cx:25;
+    cy:25;
+    r:10;
+    position: absolute;
+    fill: none;
+    stroke: transparent;
+    transition: .8s;
+
+}
+
+.svg-linkedin:hover{
+    .linkedin-circle{
+        stroke: #0e76a8;
+        stroke-width: 2;
+        r:20;
+    }
+}
+
+.svg-insta{
+    position: absolute;
+    left: 7.5rem;
+    width: 5rem;
+    height: 5rem;
+    top: 35.2rem;
+
+}
+
+.insta-circle{
+    cx:25;
+    cy:25;
+    r:10;
+    position: absolute;
+    fill: none;
+    stroke: transparent;
+    transition: .8s;
+
+}
+
+.svg-insta:hover{
+    .insta-circle{
+        stroke: #bc2a8d;
+        stroke-width: 2;
+        r:20;
+    }
+}
+
+.svg-fb{
+    position: absolute;
+    left: 7.55rem;
+    width: 5rem;
+    height: 5rem;
+    top: 44.55rem;
+
+}
+
+.fb-circle{
+    cx:25;
+    cy:25;
+    r:10;
+    position: absolute;
+    fill: none;
+    stroke: transparent;
+    transition: .8s;
+
+}
+
+.svg-fb:hover{
+    .fb-circle{
+        stroke: #3b5998;
+        stroke-width: 2;
+        r:20;
+    }
+}
