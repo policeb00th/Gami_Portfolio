@@ -3,12 +3,15 @@ import { NavLink } from 'react-router-dom'
 import { Link, animateScroll as scroll } from "react-scroll";
 const OtherHeader = () => (
     <div className="header">
-        <h1 className="name">
-            <svg className="svg-rect">
-                <rect x="0" y="0" fill="none" width="19.6rem" height="6rem" />
-            </svg>
+        <NavLink
+            to="/">
+            <h1 className="name">
+                <svg className="svg-rect">
+                    <rect x="0" y="0" fill="none" width="19.6rem" height="6rem" />
+                </svg>
         SAHIL GAMI
       </h1>
+        </NavLink>
         <NavLink
             exact={true}
             className="link"
