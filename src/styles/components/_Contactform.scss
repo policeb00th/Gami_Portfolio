@@ -154,19 +154,19 @@ opacity: 0.6;
 
 .submit_button{
     text-align: center;
+    display: table-cell;
     width: 28rem;
     height: 8rem;
     background: #6650F2 0% 0% no-repeat padding-box;
+    vertical-align: middle;
     font-family: sans-serif;
     font-size: 2.5rem;
     letter-spacing: 2.4px;
     color: #E8E8E8;
     border-radius: 15px;
     border:0;
-    cursor: pointer;
     opacity: 1;
-    transition-duration: 0.4s;
-
+    transition:all 0.4s;
 }
 
 
@@ -188,4 +188,49 @@ opacity: 0.6;
     display: inline-block;
    border: 2px solid #00FF13;
    border-radius: 15px;
+}
+
+
+@keyframes example {
+    0% {
+        width:0%;
+          left:100%;
+      }
+      100% {
+         left:0%;
+           width:100%;
+      }
+  }
+.sent_button{
+    display: table-cell;
+    width: 28rem;
+    height: 8rem;
+    background: #6650F2 0% 0% no-repeat padding-box;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 2.4px;
+    color: #E8E8E8;
+    border-radius: 15px;
+    border:0;
+    opacity: 1;
+    transition:all 0.4s;
+    outline: none;
+}
+.sent_button::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 100%;
+    width:0;
+    height: 100%;
+    background: #51D53D 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    animation-fill-mode: forwards;
+    animation-name: example;
+    animation-duration: 0.5s;
+}
+ 
+.sent{
+    position: relative;
+    z-index: 2;
 }

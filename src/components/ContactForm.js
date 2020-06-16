@@ -9,6 +9,7 @@ class ContactForm extends React.Component {
             Name: '',
             email: '',
             message: '',
+            sent: false
         }
         this.handleEmailChange = this.handleEmailChange.bind(this)
         this.handleNameChange = this.handleNameChange.bind(this)
@@ -20,7 +21,8 @@ class ContactForm extends React.Component {
         this.setState({
             Name: '',
             email: '',
-            message: ''
+            message: '',
+            sent: true
         })
         const templateId = 'testing'
         this.sendFeedback(templateId, {
@@ -36,18 +38,21 @@ class ContactForm extends React.Component {
             variables, "user_MKwgqmmevf5SnlaQxTSsG"
         ).then(res => {
             // Email successfully sent alert
-            Swal.fire({
-                title: 'Email Successfully Sent',
-                icon: 'success'
+            this.setState({
+                Name: '',
+                email: '',
+                message: '',
+                sent: false
             })
         })
             // Email Failed to send Error alert
             .catch(err => {
-                Swal.fire({
-                    title: 'Email Failed to Send',
-                    icon: 'error'
+                this.setState({
+                    Name: '',
+                    email: '',
+                    message: '',
+                    sent: false
                 })
-                console.error('Email Error:', err)
             })
     }
     handleNameChange(event) {
@@ -61,7 +66,7 @@ class ContactForm extends React.Component {
     }
     render() {
         return (
-            <div className="formContainer"> 
+            <div className="formContainer">
                 <form autoComplete="off" className="form_contact" onSubmit={this.handleSubmit} >
                     <div className="toptwoinputs">
                         <input
@@ -98,7 +103,8 @@ class ContactForm extends React.Component {
                         />
                     </div>
                     <div className="button_container">
-                        <input className="submit_button" type="submit" value="Send" />
+                        {/* <button className={this.state.sent?"submit_button":"sent_button"}>Send</button> */}
+                        {this.state.sent?<button className="sent_button"><span className="sent">Sent!</span></button>:<button className="submit_button">Send</button>}
                     </div>
                 </form>
             </div>
