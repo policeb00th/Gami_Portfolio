@@ -29,6 +29,7 @@
     margin-top: $l-size;
     margin-left: 10rem;
     color: #6650F2;
+    height: 5rem;
     
 
 }
@@ -88,4 +89,29 @@
     opacity: 1;
     flex-grow: 0;
     cursor: pointer;
+}
+
+.svg-rect{
+    height: 6rem;
+    width: 19.6rem;
+    position: absolute;
+    left: 8.5rem;
+}
+
+rect {
+    fill: none;
+    stroke: #6650F2;
+    stroke-width: 4;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    transition: all .7s linear;
+  }
+
+.svg-rect:hover {
+     rect {
+    stroke-width: 4;
+    stroke-dasharray: 700;
+    stroke-dashoffset:0;
+    transition: all .7s linear;
+  }
 }
