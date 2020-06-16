@@ -37,6 +37,11 @@ const Footer = () => (
             <hr className="right_line" />
             <p className="Go_to_mail    "> Mail me at sgami444@gmail.com</p>
         </div>
+        <div className="last_line_container">
+        <img className="copyright" src='/images/copyright.png'/>
+        <span className="copyright_text">Copyright Sahil Gami 2020</span>
+        <span className="thanks">Special thanks to <a href="https://www.instagram.com/hey_atleast_someone/" target="blank" className="thanks_blue">Diptanshu Sinha</a> for developing this portfolio.</span>
+        </div>
     </div>
 )
 
