@@ -1,10 +1,10 @@
 .image_container_right {
     position: relative;
-    width: 96rem;
+    width: 95rem;
     margin: 0;
   }
 .image_style{
-    width: 92.65rem;
+    width: 95rem;
     padding: 0;
 }
 .image_overlay_right {
@@ -47,7 +47,7 @@
   .image_overlay_left {
     position: absolute;
     bottom: 0;
-    left: 92.67rem;
+    left: 100%;
     right: 0;
     background-color: #6650F2;
     overflow: hidden;
@@ -60,14 +60,14 @@
   
   .image_container_left:hover .image_overlay_left {
     transition: .7s .4s ease;
-    width: 92.67rem;
+    width: 100%;
     left: 0 ;
   }
 
   .image_container_main{
 display: flex;
 align-items: flex-start;
-width: 92%;
+width: 185.5rem;
 padding: 0;
 margin: 0;
 }
@@ -94,7 +94,7 @@ margin: 0;
 }
 
 .image_style_left{
-  width: 92.65rem;
+  width: 95rem;
     padding: 0;
     margin-right: 2px;
 }
