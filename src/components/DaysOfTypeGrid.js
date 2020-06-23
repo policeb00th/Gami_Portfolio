@@ -7,6 +7,7 @@ const ImageStyle= () =>{
     return(
         {
             pointer:"default",
+            width:"31.667vw"
         }
     )
 }
@@ -112,7 +113,7 @@ const DaysOfTypeGrid = () =>{
             enableImageSelection={false} 
             enableLightbox={false} 
             thumbnailStyle={ImageStyle}
-            margin={0} rowHeight={640} images={IMAGES}/>
+            margin={0} rowHeight="31.667vw" images={IMAGES}/>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 html {
-  font-size: 62.5%;
+  font-size: 0.5vw;
   height: 100%;
   width: 100%;
   background-color: black;
@@ -10,8 +10,7 @@ body {
   font-size: $m-size;
   color: white;
 
-  max-width: 192rem;
-  min-width: 162rem;
+  max-width: 190rem;
   margin: 0 auto;
 }
 

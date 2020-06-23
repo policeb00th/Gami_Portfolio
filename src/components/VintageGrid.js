@@ -5,17 +5,29 @@ const ImageStyle= () =>{
     return(
         {
             pointer:"default",
-            margin: "0rem"
+            margin: "0rem",
+            width:"31.667vw"
         }
     )
 }
+
+const ImageStyleDull= () =>{
+    return(
+        {
+            pointer:"default",
+            margin: "0rem",
+            width:"95vw"
+        }
+    )
+}
+
 
 const IMAGES = [
      {
     src: '/images/Vintage/white.png',
     thumbnail:'/images/Vintage/white.png',
     thumbnailWidth: 640,
-    thumbnailHeight: 640,
+    thumbnailHeight: 640
 },
   
     {
@@ -49,12 +61,13 @@ const VintageGrid = () =>{
             enableImageSelection={false} 
             enableLightbox={false} 
             thumbnailStyle={ImageStyle}
-            margin={0} rowHeight={640} images={IMAGES}/>
+            rowHeight="31.667vw"
+            margin={0} images={IMAGES}/>
             <Gallery 
             enableImageSelection={false} 
             enableLightbox={false} 
-            thumbnailStyle={ImageStyle}
-            margin={0} rowHeight={1920} images={IMAGES_2}/>
+            thumbnailStyle={ImageStyleDull}
+            margin={0} rowHeight="95vw" images={IMAGES_2}/>
         </div>
     )
 }

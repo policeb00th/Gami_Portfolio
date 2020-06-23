@@ -7,7 +7,17 @@ const ImageStyle= () =>{
     return(
         {
             pointer:"default",
-            margin: "0rem"
+            margin: "0rem",
+            width:"31.666vw"
+        }
+    )
+}
+const ImageStyle2= () =>{
+    return(
+        {
+            pointer:"default",
+            margin: "0rem",
+            width:"47.5vw"
         }
     )
 }
@@ -80,12 +90,12 @@ const General3DGrid = () =>{
             enableImageSelection={false} 
             enableLightbox={false} 
             thumbnailStyle={ImageStyle}
-            margin={0} rowHeight={640} images={IMAGES}/>
+            margin={0} rowHeight="31.667vw" images={IMAGES}/>
             <Gallery 
             enableImageSelection={false} 
             enableLightbox={false} 
-            thumbnailStyle={ImageStyle}
-            margin={0} rowHeight={540} images={IMAGES_2}/>
+            thumbnailStyle={ImageStyle2}
+            margin={0} rowHeight="26.71903125vw" images={IMAGES_2}/>
         </div>
     )
 }
