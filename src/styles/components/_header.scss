@@ -1,14 +1,4 @@
-@font-face{
-    font-family: 'bisonbold';
-    src:url('/src/fonts/bisonbold.eot');
-    src:url('/src/fonts/bisonbold.eot') format('embedded-opentype'),
-        url('/src/fonts/bison-boldpersonaluse-webfont.woff2') format('woff2'),
-        url('/src/fonts/bisonbold.ttf') format('truetype'),
-        url('/src/fonts/Bison-Bold.svg') format('svg')
-        url('/src/fonts/bison-boldpersonaluse-webfont.woff') format('woff'),
-        
 
-}
 .header {
     width: 100%;
     position: sticky;
@@ -22,7 +12,7 @@
     justify-content: space-between;
 }
 .name{
-    font-family:Bison, sans-serif;
+    font-family:bisonbold, sans-serif;
     font-size: $xl-size;
     flex-grow: 7;
     font-weight: 200;

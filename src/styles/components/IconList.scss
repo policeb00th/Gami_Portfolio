@@ -11,7 +11,7 @@
 
 }
 .social{
-    font: Bold 2rem/2.4rem Bison;
+    font: Bold 2rem/2.4rem bisonbold;
     letter-spacing: 0.2rem;
     color: transparent;
     opacity: 1;
@@ -20,7 +20,7 @@
 
 .social:before{
     content: attr(data-social);
-    font: Bold 2rem/2.4rem Bison;
+    font: Bold 2rem/2.4rem bisonbold;
     letter-spacing: 0.2rem;
     color: #6650F2;
     position: absolute;
@@ -37,7 +37,7 @@
 }
 .social:after{
     content:attr(data-anti);
-    font: Bold 2rem/2.4rem Bison;
+    font: Bold 2rem/2.4rem bisonbold;
     letter-spacing: 0.2rem;
     color: #F29999;
     position: absolute;
@@ -52,7 +52,7 @@
 }
 
 .anti{
-    font: Bold 2rem/2.4rem Bison;
+    font: Bold 2rem/2.4rem bisonbold;
     letter-spacing: 0.2rem;
     color: #F29999;
     opacity: 1;

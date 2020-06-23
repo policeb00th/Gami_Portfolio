@@ -30,7 +30,7 @@ margin-bottom: 6.3rem;
 }
 
 .contribution_big_header{
-    font: 500 100px/120px Bison;
+    font: 500 100px/120px bisonbold;
     margin-top: 20rem;
     position: relative;
     text-align: center;
@@ -42,7 +42,7 @@ margin-bottom: 6.3rem;
 
 .contribution_big_header:before{
     content: attr(data-cont);
-    font: 500 100px/120px Bison;
+    font: 500 100px/120px bisonbold;
     position: absolute;
     left: 0rem;
     width: 100%;
@@ -62,7 +62,7 @@ margin-bottom: 6.3rem;
 
 .contribution_big_header:after{
     content: attr(data-other);
-    font: 500 100px/120px Bison;
+    font: 500 100px/120px bisonbold;
     position: absolute;
     left: -40rem;
     width: 100%;
