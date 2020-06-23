@@ -1,14 +1,12 @@
 // Colors
-$sahil-blue:#6650F2;
+$sahil-blue: #6650f2;
 // Spacing
-@font-face{
-    font-family: 'bisonbold';
-    src:url('/fonts/bisonbold.ttf') format('truetype'),
-        url('/fonts/bison-boldpersonaluse-webfont.woff') format('woff'),
-        url('/fonts/bison-boldpersonaluse-webfont.woff2') format('woff2')
-
+@font-face {
+    font-family: "bisonbold";
+    src: url("/fonts/bisonbold.ttf") format("truetype"), url("/fonts/bison-boldpersonaluse-webfont.woff") format("woff"),
+        url("/fonts/bison-boldpersonaluse-webfont.woff2") format("woff2");
 }
-$font:bisonbold;
+$font: bisonbold;
 $s-size: 1.2rem;
 $m-size: 1.6rem;
 $l-size: 3.2rem;

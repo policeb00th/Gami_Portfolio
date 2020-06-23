@@ -1,57 +1,55 @@
-.about_container{
+.about_container {
     display: flex;
     position: relative;
     flex-direction: column;
-    top:-80rem;
-    left:91rem;
+    top: -80rem;
+    left: 91rem;
     // text-align: center;
-    width:90rem;
-    margin-bottom:-75rem;
+    width: 90rem;
+    margin-bottom: -75rem;
 }
-.about_img{
-    height:110rem;
+.about_img {
+    height: 110rem;
     width: auto;
     padding-bottom: 0;
     margin-bottom: 0;
-
 }
 
-
-.singleaboutme{
+.singleaboutme {
     margin-top: 0;
     margin-bottom: 20rem;
     height: 5rem;
     transition: 0.5s;
 }
-.aboutme{
-text-align: left;
-margin:0 107rem 0 0;
-padding: 0;
-position: relative;
-top: 5rem;
-left:12rem;
-font: 500 150px/180px bisonbold;
-letter-spacing: 0px;
-color: #6650F2;
-opacity: 1;
+.aboutme {
+    text-align: left;
+    margin: 0 107rem 0 0;
+    padding: 0;
+    position: relative;
+    top: 5rem;
+    left: 12rem;
+    font: 500 15rem/18rem bisonbold;
+    letter-spacing: 0rem;
+    color: #6650f2;
+    opacity: 1;
 }
 
-.pinktext{
+.pinktext {
     text-decoration: none;
-font: 500 150px/180px bisonbold;
-letter-spacing: 0px;
-color: transparent;
-position: relative;
-top: -10rem;
-text-align: center;
-opacity: 1;
-padding:0;
-margin:0;
+    font: 500 15rem/18rem bisonbold;
+    letter-spacing: 0rem;
+    color: transparent;
+    position: relative;
+    top: -10rem;
+    text-align: center;
+    opacity: 1;
+    padding: 0;
+    margin: 0;
 }
 
-.pinktext:before{
-    content:attr(data-pink);
-    color: #F29999;
+.pinktext:before {
+    content: attr(data-pink);
+    color: #f29999;
     position: absolute;
     left: 0rem;
     width: 100%;
@@ -60,18 +58,18 @@ margin:0;
     transition: 0.5s;
     pointer-events: none;
 }
-.pinktext:hover:before{
+.pinktext:hover:before {
     transform: translateY(-10rem);
     opacity: 0;
 }
 
-.pinktext:after{
-    content:attr(data-hover);
+.pinktext:after {
+    content: attr(data-hover);
     position: absolute;
     left: -10rem;
     width: 80rem;
     height: 100%;
-    -webkit-text-stroke: 1px #eee;
+    -webkit-text-stroke: 0.1rem #eee;
     transform: translateY(15rem);
     transition: 0.5s;
     pointer-events: none;
@@ -80,11 +78,11 @@ margin:0;
     font-size: 2.6rem;
     line-height: 3.2rem;
     font-family: sans-serif;
-    letter-spacing: 0px;
-    color: #EBEEF2;
-    padding-left:17rem;
+    letter-spacing: 0rem;
+    color: #ebeef2;
+    padding-left: 17rem;
 }
-.pinktext:hover:after{
+.pinktext:hover:after {
     transform: translateY(0);
     opacity: 1;
 }

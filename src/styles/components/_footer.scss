@@ -5,7 +5,7 @@
 
 .left_line{
     width: 42rem;
-    border: 1px solid black;
+    border: 0.1rem solid black;
 }
 .left_container{
     display: flex;
@@ -18,8 +18,8 @@
 
 .Go_to{
 
-    font: 200 25px/30px sans-serif;
-    letter-spacing: 2px;
+    font: 200 2.5rem/3rem sans-serif;
+    letter-spacing: 0.2rem;
     color: #050503;
     opacity: 1;
     padding:0;
@@ -29,12 +29,12 @@
 .footer_links{
     text-align: left;
     text-decoration: none;
-font: 200 25px/30px sans-serif;
-letter-spacing: 2px;
+    font: 200 2.5rem/3rem sans-serif;
+letter-spacing: 0.2rem;
 color: #191B40;
 opacity: 0.4;
 transition: 0.4s;
-padding-bottom: 7px;
+padding-bottom: 0.7rem;
 }
 .footer_links:hover{
     opacity: 1;
@@ -42,9 +42,9 @@ padding-bottom: 7px;
 
 .right_line{
     width: 42rem;
-    border: 1px solid black;
+    border: 0.1rem solid black;
     margin-bottom: 1rem;
-    margin-top: 5pxrem;
+    margin-top: 0.5rem;
 }
 .right_container{
     display: flex;
@@ -61,9 +61,8 @@ padding-bottom: 7px;
 
 }
 .Go_to_right{
-
-    font: 200 25px/30px sans-serif;
-    letter-spacing: 2px;
+    font: 200 2.5rem/3rem sans-serif;
+    letter-spacing: 0.2rem;
     color: #050503;
     opacity: 1;
     padding:0;
@@ -74,8 +73,8 @@ padding-bottom: 7px;
 
 .Go_to_mail{
 
-    font: 200 25px/30px sans-serif;
-    letter-spacing: 2px;
+    font: 200 2.5rem/3rem sans-serif;
+    letter-spacing: 0.2rem;
     color: #050503;
     opacity: 1;
     padding:0;
@@ -102,8 +101,8 @@ padding-bottom: 7px;
     bottom: 4rem;
     width: 10rem;
     text-align: left;
-font: 500 18px/24px sans-serif;
-letter-spacing: 1px;
+font: 500 1.8rem/2.4rem sans-serif;
+letter-spacing: 0.1rem;
 color: #191B40;
 opacity: 0.7;
 margin: 0;
@@ -115,8 +114,8 @@ padding: 0;
     left: 35rem;
     bottom: 4rem;
     text-align: left;
-font: 700 20px/30px sans-serif;
-letter-spacing: 1px;
+font: 700 2rem/3rem sans-serif;
+letter-spacing: 0.1rem;
 opacity: 1;
 color: #191B40;
 }

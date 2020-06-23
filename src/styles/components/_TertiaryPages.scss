@@ -1,41 +1,40 @@
-.grid_container{
+.grid_container {
     width: 100%;
-    height:100%;
+    height: 100%;
 }
-.days_header{
+.days_header {
     text-align: center;
-    font: 500 150px/180px bisonbold;
-    color:white;  
+    font: 500 15rem/18rem bisonbold;
+    color: white;
     margin-top: 10rem;
     line-height: 6rem;
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
-.days_header:hover{
-    color: #F29999;
+.days_header:hover {
+    color: #f29999;
 }
 
-a{
+a {
     text-decoration: none;
 }
-.behance{
+.behance {
     text-decoration: none;
     position: relative;
     text-align: right;
-    font: 800 30px/37px sans-serif;
-    letter-spacing: 0px;
-    color: #E8E8E8;
+    font: 800 3rem/3.7rem sans-serif;
+    letter-spacing: 0rem;
+    color: #e8e8e8;
     opacity: 1;
     margin: 0;
     padding: 0;
     margin-top: 1.6rem;
     margin-right: 15rem;
     margin-bottom: 4rem;
- 
 }
 
-.behance:hover{
-   text-decoration-line: underline;
+.behance:hover {
+    text-decoration-line: underline;
 }

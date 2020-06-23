@@ -1,22 +1,22 @@
 .contact_line{
-    font: 800 50px/61px sans-serif;
+    font: 800 5rem/6.1rem sans-serif;
     margin-bottom: 7rem;
     position: relative;
     top: -4rem;
     left: 34rem;
     width: 108rem;
-letter-spacing: 2.5px;
+letter-spacing: 0.25rem;
 color: transparent;
 opacity: 1;
 }
 .contact_line:before{
     content: attr(data-pink);
-    font: 800 50px/61px sans-serif;
+    font: 800 5rem/6.1rem sans-serif;
     width: 100%;
     position: absolute;
     text-align: left;
     color: #F29999;
-    letter-spacing: 2.5px;
+    letter-spacing: 0.25rem;
     opacity: 1;
     transform: translateX(0);
     transition: 0.5s;
@@ -26,11 +26,11 @@ opacity: 1;
 
 .contact_line:after{
     content: attr(data-blue);
-    font: 800 50px/61px sans-serif;
+    font: 800 5rem/6.1rem sans-serif;
     position: absolute;
     text-align: center;
     color: #6650F2;
-    letter-spacing: 2.5px;
+    letter-spacing: 0.25rem;
     opacity: 0;
     transform: translateX(-10rem);
     transition: 0.5s;
@@ -64,42 +64,42 @@ opacity: 1;
     height: 8rem;
     width: 50rem;
     background-color: transparent;
-    border: 2px solid rgba(255,255,255,0.7);
-border-radius: 15px;
+    border: 0.2rem solid rgba(255,255,255,0.7);
+border-radius: 1.5rem;
 opacity: 1;
 font-size: 3rem;
 font-family: sans-serif;
-letter-spacing: 2.4px;
+letter-spacing: 0.24rem;
 color: #E8E8E8;
 }
 
 .smallinput:hover{
-    border: 2px solid rgba(255,255,255,1);
+    border: 0.2rem solid rgba(255,255,255,1);
 }
 
 .biginput{
     height: 34rem;
     width: 113.5rem;
     background-color: transparent;
-    border: 2px solid rgba(255,255,255,0.7);
-border-radius: 15px;
+    border: 0.2rem solid rgba(255,255,255,0.7);
+border-radius: 1.5rem;
 opacity: 1;
 font-size: 3rem;
 font-family: sans-serif;
 box-sizing: border-box;
 padding-top: 3rem;
 padding-left: 3rem;
-letter-spacing: 2.4px;
+letter-spacing: 0.24rem;
 color: #E8E8E8;
 overflow-wrap: break-word;
 }
 .biginput:hover{
-    border: 2px solid rgba(255,255,255,1);
+    border: 0.2rem solid rgba(255,255,255,1);
 }
 .smallinput::-webkit-input-placeholder { /* Edge */
     font-size: 3rem;
 font-family: sans-serif;
-letter-spacing: 2.4px;
+letter-spacing: 0.24rem;
 color: #E8E8E8;
 opacity: 0.6;
   }
@@ -107,7 +107,7 @@ opacity: 0.6;
 .smallinput:-ms-input-placeholder { /* Internet Explorer 10-11 */
     font-size: 3rem;
     font-family: sans-serif;
-    letter-spacing: 2.4px;
+    letter-spacing: 0.24rem;
     color: #E8E8E8;
     opacity: 0.6;
   }
@@ -115,7 +115,7 @@ opacity: 0.6;
 .smallinput::placeholder {
     font-size: 3rem;
 font-family: sans-serif;
-letter-spacing: 2.4px;
+letter-spacing: 0.24rem;
 color: #E8E8E8;
 opacity: 0.6;
   }
@@ -123,7 +123,7 @@ opacity: 0.6;
 .biginput::-webkit-input-placeholder { /* Edge */
     font-size: 3rem;
 font-family: sans-serif;
-letter-spacing: 2.4px;
+letter-spacing: 0.24rem;
 color: #E8E8E8;
 opacity: 0.6;
   }
@@ -131,7 +131,7 @@ opacity: 0.6;
 .biginput:-ms-input-placeholder { /* Internet Explorer 10-11 */
     font-size: 3rem;
     font-family: sans-serif;
-    letter-spacing: 2.4px;
+    letter-spacing: 0.24rem;
     color: #E8E8E8;
     opacity: 0.6;
   }
@@ -139,7 +139,7 @@ opacity: 0.6;
 .biginput::placeholder {
     font-size: 3rem;
 font-family: sans-serif;
-letter-spacing: 2.4px;
+letter-spacing:0.24rem;
 color: #E8E8E8;
 opacity: 0.6;
   }
@@ -161,9 +161,9 @@ opacity: 0.6;
     vertical-align: middle;
     font-family: sans-serif;
     font-size: 2.5rem;
-    letter-spacing: 2.4px;
+    letter-spacing: 0.24rem;
     color: #E8E8E8;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     border:0;
     opacity: 1;
     transition:all 0.4s;
@@ -173,7 +173,7 @@ opacity: 0.6;
 .button_container{
     position: relative;
     left: 40rem;
-    margin: 0px;
+    margin: 0rem;
     top: 6rem;
     display: inline-block;
    transition-duration: 0.4s;
@@ -184,10 +184,10 @@ opacity: 0.6;
     position: relative;
     left: 40rem;
     top: 6rem;
-    padding:5px;
+    padding:0.5rem;
     display: inline-block;
-   border: 2px solid #00FF13;
-   border-radius: 15px;
+   border: 0.2rem solid #00FF13;
+   border-radius: 1.5rem;
 }
 
 
@@ -208,9 +208,9 @@ opacity: 0.6;
     background: #6650F2 0% 0% no-repeat padding-box;
     font-family: sans-serif;
     font-size: 2.5rem;
-    letter-spacing: 2.4px;
+    letter-spacing: 0.24rem;
     color: #E8E8E8;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     border:0;
     opacity: 1;
     transition:all 0.4s;
@@ -224,7 +224,7 @@ opacity: 0.6;
     width:0;
     height: 100%;
     background: #51D53D 0% 0% no-repeat padding-box;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     animation-fill-mode: forwards;
     animation-name: example;
     animation-duration: 0.5s;

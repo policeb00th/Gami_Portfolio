@@ -1,87 +1,84 @@
-
 .header {
     width: 100%;
     position: sticky;
     z-index: 100;
-    top: 0px;
-    left: 0px;
+    top: 0rem;
+    left: 0rem;
     background: #050503 0% 0% no-repeat padding-box;
     background-size: cover;
     opacity: 50;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
-.name{
-    font-family:bisonbold, sans-serif;
+.name {
+    font-family: bisonbold, sans-serif;
     font-size: $xl-size;
     flex-grow: 7;
     font-weight: 200;
     margin-top: $l-size;
     margin-left: 10rem;
-    color: #6650F2;
+    color: #6650f2;
     height: 5rem;
-    
-
 }
 
-.link{
+.link {
     text-align: left;
     margin-right: 5rem;
     margin-top: $xl-size;
     font-size: 2rem;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-weight: 500;
-    letter-spacing: 0px;
-    color: #FFFFFF;
+    letter-spacing: 0rem;
+    color: #ffffff;
     opacity: 0.5;
     flex-grow: 0;
     cursor: pointer;
 }
 
-.link:hover{
+.link:hover {
     opacity: 1;
 }
 
-.link__last{
+.link__last {
     text-align: left;
     margin-right: 15rem;
     margin-top: $xl-size;
     font-size: 2rem;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-weight: 500;
-    letter-spacing: 0px;
-    color: #FFFFFF;
+    letter-spacing: 0rem;
+    color: #ffffff;
     opacity: 0.5;
     flex-grow: 0;
     cursor: pointer;
 }
-.link__last:hover{
+.link__last:hover {
     opacity: 1;
 }
-.name{
+.name {
     margin-top: $l-size;
 }
 
-.active{
-    color: #F29999;
+.active {
+    color: #f29999;
     opacity: 1;
 }
 
-.link_pink{
+.link_pink {
     text-align: left;
     margin-right: 5rem;
     margin-top: $xl-size;
     font-size: 2rem;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-weight: 500;
-    letter-spacing: 0px;
-    color: #F29999;
+    letter-spacing: 0rem;
+    color: #f29999;
     opacity: 1;
     flex-grow: 0;
     cursor: pointer;
 }
 
-.svg-rect{
+.svg-rect {
     height: 6rem;
     width: 19.6rem;
     position: absolute;
@@ -90,22 +87,22 @@
 
 rect {
     fill: none;
-    stroke: #6650F2;
+    stroke: #6650f2;
     stroke-width: 4;
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    transition: all .7s linear;
-  }
-
-.svg-rect:hover {
-     rect {
-    stroke-width: 4;
-    stroke-dasharray: 700;
-    stroke-dashoffset:0;
-    transition: all .7s linear;
-  }
+    transition: all 0.7s linear;
 }
 
-.navlink_col{
-    color:#6650F2   
+.svg-rect:hover {
+    rect {
+        stroke-width: 4;
+        stroke-dasharray: 700;
+        stroke-dashoffset: 0;
+        transition: all 0.7s linear;
+    }
+}
+
+.navlink_col {
+    color: #6650f2;
 }
