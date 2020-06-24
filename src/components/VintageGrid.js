@@ -50,7 +50,7 @@ const IMAGES = [
 const IMAGES_2 = [
     {
         src: '/images/Vintage/dull_jack.png',
-        thumbnail: '/images/Vintage/dull_jack.png',
+        thumbnail: '/images/Vintage/dull.jpg',
         thumbnailWidth: 1,
         thumbnailHeight: 1,
     }
