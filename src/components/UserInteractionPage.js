@@ -47,7 +47,7 @@ const UserInteractionPage = () => (
                     </LazyLoad>
                     <div className=" image_overlay_left">
                         <div className="image_text">
-                            C2C OPPORTUNITIES
+                            C2E OPPORTUNITIES
                     </div>
                     </div>
                 </a>
