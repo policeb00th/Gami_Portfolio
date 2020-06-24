@@ -6,12 +6,9 @@ import Loading from './Loading';
 
 const AboutMe = () => (
     <div>
-        <p id="aboutme" className="aboutme">About Me</p>
-        <LazyLoad
-            placeholder={Loading}>
+            <p id="aboutme" className="aboutme">About Me</p>
             <img className="about_img" src="/images/photo-gray.png" />
-        </LazyLoad>
-        <AboutMeTextContainer />
+            <AboutMeTextContainer />
     </div>
 )
 export default AboutMe
