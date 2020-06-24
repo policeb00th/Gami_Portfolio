@@ -13,18 +13,9 @@ const HomePage = () => (
     <div>
         <Header />
         <Introduction />
-        <LazyLoad
-            placeholder={Loading}>
-            <AboutMe />
-        </LazyLoad>
-        <LazyLoad
-            placeholder={Loading}>
-            <MyWork />
-        </LazyLoad>
-        <LazyLoad
-            placeholder={Loading}>
-            <ContactMe />
-        </LazyLoad>
+        <AboutMe />
+        <MyWork />
+        <ContactMe />
         <Footer />
     </div>
 )
