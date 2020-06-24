@@ -1,38 +1,40 @@
 import React from 'react';
 import Gallery from 'react-grid-gallery';
+import LazyLoad from 'react-lazyload';
+import Loading from './Loading';
 
-const ImageStyle= () =>{
-    return(
+const ImageStyle = () => {
+    return (
         {
-            pointer:"default",
+            pointer: "default",
             margin: "0rem",
-            width:"31.667vw"
+            width: "31.666vw"
         }
     )
 }
 
-const ImageStyleDull= () =>{
-    return(
+const ImageStyleDull = () => {
+    return (
         {
-            pointer:"default",
+            pointer: "default",
             margin: "0rem",
-            width:"95vw"
+            width: "95vw"
         }
     )
 }
 
 
 const IMAGES = [
-     {
-    src: '/images/Vintage/white.png',
-    thumbnail:'/images/Vintage/white.png',
-    thumbnailWidth: 640,
-    thumbnailHeight: 640
-},
-  
+    {
+        src: '/images/Vintage/white.png',
+        thumbnail: '/images/Vintage/white.png',
+        thumbnailWidth: 640,
+        thumbnailHeight: 640
+    },
+
     {
         src: '/images/Vintage/meet_final.png',
-        thumbnail:'/images/Vintage/meet_final.png',
+        thumbnail: '/images/Vintage/meet_final.png',
         thumbnailWidth: 640,
         thumbnailHeight: 640,
     },
@@ -54,20 +56,26 @@ const IMAGES_2 = [
     }
 ]
 
-const VintageGrid = () =>{
-    return(
+const VintageGrid = () => {
+    return (
         <div className="grid_container">
-            <Gallery 
-            enableImageSelection={false} 
-            enableLightbox={false} 
-            thumbnailStyle={ImageStyle}
-            rowHeight="31.667vw"
-            margin={0} images={IMAGES}/>
-            <Gallery 
-            enableImageSelection={false} 
-            enableLightbox={false} 
-            thumbnailStyle={ImageStyleDull}
-            margin={0} rowHeight="95vw" images={IMAGES_2}/>
+            <LazyLoad
+                placeholder={Loading}>
+                <Gallery
+                    enableImageSelection={false}
+                    enableLightbox={false}
+                    thumbnailStyle={ImageStyle}
+                    rowHeight="31.667vw"
+                    margin={0} images={IMAGES} />
+            </LazyLoad>
+            <LazyLoad
+                placeholder={Loading}>
+                <Gallery
+                    enableImageSelection={false}
+                    enableLightbox={false}
+                    thumbnailStyle={ImageStyleDull}
+                    margin={0} rowHeight="95vw" images={IMAGES_2} />
+            </LazyLoad>
         </div>
     )
 }

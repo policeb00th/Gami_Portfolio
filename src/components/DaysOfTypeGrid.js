@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Gallery from 'react-grid-gallery';
 import Footer from './Footer';
+import LazyLoad from 'react-lazyload'
+import Loading from './Loading';
 
-const ImageStyle= () =>{
-    return(
+const ImageStyle = () => {
+    return (
         {
-            pointer:"default",
-            width:"31.667vw"
+            pointer: "default",
+            width: "31.66698vw"
         }
     )
 }
@@ -106,14 +108,18 @@ const IMAGES = [
     }
 ]
 
-const DaysOfTypeGrid = () =>{
-    return(
+const DaysOfTypeGrid = () => {
+    return (
+
         <div className="grid_container">
-            <Gallery 
-            enableImageSelection={false} 
-            enableLightbox={false} 
-            thumbnailStyle={ImageStyle}
-            margin={0} rowHeight="31.667vw" images={IMAGES}/>
+            <LazyLoad
+                placeholder={Loading}>
+                <Gallery
+                    enableImageSelection={false}
+                    enableLightbox={false}
+                    thumbnailStyle={ImageStyle}
+                    margin={0} rowHeight="31.667vw" images={IMAGES} />
+            </LazyLoad>
         </div>
     )
 }
