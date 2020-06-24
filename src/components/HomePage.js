@@ -6,15 +6,26 @@ import AboutMe from './AboutMe';
 import MyWork from './MyWork';
 import ContactMe from './ContactMe';
 import Footer from './Footer';
+import LazyLoad from 'react-lazyload';
+import Loading from './Loading';
 
-const HomePage=() =>(
+const HomePage = () => (
     <div>
-        <Header/>
-        <Introduction/>
-        <AboutMe/>
-        <MyWork/>
-        <ContactMe/>
-        <Footer/>
+        <Header />
+        <Introduction />
+        <LazyLoad
+            placeholder={Loading}>
+            <AboutMe />
+        </LazyLoad>
+        <LazyLoad
+            placeholder={Loading}>
+            <MyWork />
+        </LazyLoad>
+        <LazyLoad
+            placeholder={Loading}>
+            <ContactMe />
+        </LazyLoad>
+        <Footer />
     </div>
 )
 export default HomePage
