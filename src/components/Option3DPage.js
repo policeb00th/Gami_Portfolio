@@ -15,7 +15,7 @@ const Option3DPage = () => (
                 <NavLink to="/DaysOfType">
                     <LazyLoad
                         placeholder={Loading}>
-                        <img className="image_style" src="/images/3DOptions/36_days_type.png" />
+                        <img className="image_style" src="/images/3DOptions/36_days_type.jpg" />
                     </LazyLoad>
                     <div className=" image_overlay_left">
                         <div className="image_text">
@@ -28,7 +28,7 @@ const Option3DPage = () => (
                 <NavLink to="/3D-design">
                     <LazyLoad
                         placeholder={Loading}>
-                        <img className="image_style" src="/images/3DOptions/general_ 3d_designs.png" />
+                        <img className="image_style" src="/images/3DOptions/general_ 3d_designs.jpg" />
                     </LazyLoad>
                     <div className=" image_overlay_right">
                         <div className="image_text">

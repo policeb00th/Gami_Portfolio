@@ -15,7 +15,7 @@ const PosterOptionPage = () => (
                 <NavLink to="/Vintage">
                     <LazyLoad
                         placeholder={Loading}>
-                        <img className="image_style" src="/images/PostersOption/Vintage.png" />
+                        <img className="image_style" src="/images/PostersOption/Vintage.jpg" />
                     </LazyLoad>
                     <div className=" image_overlay_left">
                         <div className="image_text">
@@ -28,7 +28,7 @@ const PosterOptionPage = () => (
                 <NavLink to="/GeneralPoster">
                     <LazyLoad
                         placeholder={Loading}>
-                        <img className="image_style" src="/images/PostersOption/General.png" />
+                        <img className="image_style" src="/images/PostersOption/General.jpg" />
                     </LazyLoad>
                     <div className=" image_overlay_right">
                         <div className="image_text">

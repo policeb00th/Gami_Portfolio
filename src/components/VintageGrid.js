@@ -26,21 +26,21 @@ const ImageStyleDull = () => {
 
 const IMAGES = [
     {
-        src: '/images/Vintage/white.png',
-        thumbnail: '/images/Vintage/white.png',
+        src: '/images/Vintage/white.jpg',
+        thumbnail: '/images/Vintage/white.jpg',
         thumbnailWidth: 640,
         thumbnailHeight: 640
     },
 
     {
-        src: '/images/Vintage/meet_final.png',
-        thumbnail: '/images/Vintage/meet_final.png',
+        src: '/images/Vintage/meet_final.jpg',
+        thumbnail: '/images/Vintage/meet_final.jpg',
         thumbnailWidth: 640,
         thumbnailHeight: 640,
     },
     {
-        src: '/images/Vintage/corona2.png',
-        thumbnail: '/images/Vintage/corona2.png',
+        src: '/images/Vintage/corona2.jpg',
+        thumbnail: '/images/Vintage/corona2.jpg',
         thumbnailWidth: 640,
         thumbnailHeight: 640,
 
@@ -49,7 +49,7 @@ const IMAGES = [
 
 const IMAGES_2 = [
     {
-        src: '/images/Vintage/dull_jack.png',
+        src: '/images/Vintage/dull.jpg',
         thumbnail: '/images/Vintage/dull.jpg',
         thumbnailWidth: 1,
         thumbnailHeight: 1,

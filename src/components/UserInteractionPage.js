@@ -14,7 +14,7 @@ const UserInteractionPage = () => (
                 <a href="https://www.behance.net/gallery/85147681/Architect-advertisement-web-design" target="_blank">
                     <LazyLoad
                         placeholder={Loading}>
-                        <img className="image_style" src="/images/UserInteraction/architect.png" />
+                        <img className="image_style" src="/images/UserInteraction/architect.jpg" />
                     </LazyLoad>
                     <div className=" image_overlay_left">
                         <div className="image_text">
@@ -28,7 +28,7 @@ const UserInteractionPage = () => (
                 <a href="https://punar.in/" target="_blank">
                     <LazyLoad
                         placeholder={Loading}>
-                        <img className="image_style" src="/images/UserInteraction/punar_healthcare.png" />
+                        <img className="image_style" src="/images/UserInteraction/punar_healthcare.jpg" />
                     </LazyLoad>
                     <div className=" image_overlay_right">
                         <div className="image_text">
@@ -43,7 +43,7 @@ const UserInteractionPage = () => (
                 <a href="https://www.behance.net/gallery/85146453/Opportunity-%28Internship-job%29" target="_blank">
                     <LazyLoad
                         placeholder={Loading}>
-                        <img className="image_style_left" src="/images/UserInteraction/Discovering_l_in_t.png" />
+                        <img className="image_style_left" src="/images/UserInteraction/Discovering_l_in_t.jpg" />
                     </LazyLoad>
                     <div className=" image_overlay_left">
                         <div className="image_text">
@@ -56,7 +56,7 @@ const UserInteractionPage = () => (
                 <a href="https://www.behance.net/gallery/86232445/Hackgrid-Hackathon-Website-Apple-Developers-Group" target="_blank">
                     <LazyLoad
                         placeholder={Loading}>
-                        <img className="image_style_left" src="/images/UserInteraction/Hackgrid.png" />
+                        <img className="image_style_left" src="/images/UserInteraction/Hackgrid.jpg" />
                     </LazyLoad>
                     <div className=" image_overlay_right">
                         <div className="image_text">
@@ -71,7 +71,7 @@ const UserInteractionPage = () => (
                 <a href="https://www.behance.net/gallery/95649977/Login-Sign-up-concept-page" target="_blank">
                     <LazyLoad
                         placeholder={Loading}>
-                        <img className="image_style_left" src="/images/UserInteraction/Login.png" />
+                        <img className="image_style_left" src="/images/UserInteraction/Login.jpg" />
                     </LazyLoad>
                     <div className=" image_overlay_left">
                         <div className="image_text">
@@ -84,7 +84,7 @@ const UserInteractionPage = () => (
                 <a href="https://www.behance.net/gallery/89049843/Analytics-site-home-page" target="_blank">
                     <LazyLoad
                         placeholder={Loading}>
-                        <img className="image_style_left" src="/images/UserInteraction/Tweak_company_landing.png" />
+                        <img className="image_style_left" src="/images/UserInteraction/Tweak_company_landing.jpg" />
                     </LazyLoad>
                     <div className=" image_overlay_right">
                         <div className="image_text">
