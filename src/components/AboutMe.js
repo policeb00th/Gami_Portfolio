@@ -5,10 +5,10 @@ import LazyLoad from 'react-lazyload';
 import Loading from './Loading';
 
 const AboutMe = () => (
-    <div>
-            <p id="aboutme" className="aboutme">About Me</p>
-            <img className="about_img" src="/images/photo-gray.png" />
-            <AboutMeTextContainer />
+    <div id="aboutme">
+        <p className="aboutme">About Me</p>
+        <img className="about_img" src="/images/photo-gray.png" />
+        <AboutMeTextContainer />
     </div>
 )
 export default AboutMe

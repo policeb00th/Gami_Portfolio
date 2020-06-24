@@ -1,12 +1,11 @@
 .about_container {
     display: flex;
-    position: relative;
+    position: absolute;
     flex-direction: column;
-    top: -90rem;
-    left: 91rem;
+    top: 150rem;
+    left: 93rem;
     // text-align: center;
     width: 90rem;
-    margin-bottom: -75rem;
 }
 .about_img {
     width: auto;

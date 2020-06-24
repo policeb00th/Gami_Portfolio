@@ -4,10 +4,10 @@ import MyWorkContent from './MyWorKContent';
 import Contributions from './Contributions';
 
 const MyWork = () => (
-    <div>
-        <h1  id="mywork" className="work_header" >My work</h1>
+    <div id="mywork">
+        <h1 className="work_header" >My work</h1>
         <MyWorkContent />
-        <Contributions/>
+        <Contributions />
     </div>
 )
 export default MyWork
